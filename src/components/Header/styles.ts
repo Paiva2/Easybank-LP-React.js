@@ -71,11 +71,15 @@ export const Navbar = styled.nav`
     &.disabled-mobile-menu {
       opacity: 0;
       visibility: hidden;
+      height: 0;
+      overflow: hidden;
     }
 
     &.active-mobile-menu {
       opacity: 1;
+      height: 15.625rem;
       visibility: visible;
+      overflow: hidden;
     }
   }
 

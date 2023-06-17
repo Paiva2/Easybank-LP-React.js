@@ -64,7 +64,7 @@ export const LeftSideTextsContainer = styled.div`
 
   @media (max-width: 970px) {
     width: 100%;
-    padding: 0px 10px 40px 10px;
+    padding: 0px 0.625rem 2.5rem 0.625rem;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -137,7 +137,7 @@ export const WhyChooseContentsWrapper = styled.div`
 export const WhyChooseTexts = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
 
   p:first-child {
     color: hsl(233, 26%, 24%);
@@ -241,7 +241,7 @@ export const LatestArticlesCardsWrapper = styled.div`
   @media (max-width: 970px) {
     width: 100%;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
   }
 `
 
@@ -260,7 +260,7 @@ export const Articles = styled.div`
   height: 30rem;
   gap: 1.875rem;
   overflow-y: auto;
-  padding-bottom: 15px;
+  padding-bottom: 0.9375rem;
 
   img {
     width: 100%;
